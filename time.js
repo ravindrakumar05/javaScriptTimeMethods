@@ -1,0 +1,10 @@
+let today = new Date();
+let Hours = today.getHours();
+let Minutes = today.getMinutes();
+let Seconds = today.getSeconds();
+let Ctime = Hours+":"+Minutes+":"+Seconds;
+document.getElementById("hours").innerHTML="Hours "+Hours;
+document.getElementById("minutes").innerHTML="Minutes "+Minutes;
+document.getElementById("seconds").innerHTML="Seconds "+Seconds;
+document.getElementById("ctime").innerHTML="Complete Time "+Ctime;
+alert("hello Wrold!");
